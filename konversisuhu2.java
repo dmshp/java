@@ -14,7 +14,7 @@ import java.text.DecimalFormat;
 public class konversisuhu2 {
     public static void main(String[] args) {
         double celcius;
-        ImageIcon icon = new ImageIcon("images.png");
+        ImageIcon icon = new ImageIcon("d.png");
         String suhu = (String) JOptionPane.showInputDialog(null,"Masukkan Celcius :","Converter Suhu",JOptionPane.INFORMATION_MESSAGE,icon,null,"");
         DecimalFormat df = new DecimalFormat ("0.00");
         if ( suhu != null ) {
